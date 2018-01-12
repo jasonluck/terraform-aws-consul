@@ -66,6 +66,7 @@ The `run-consul` script accepts the following arguments:
 * `user` (optional): The user to run Consul as. Default is to use the owner of `config-dir`.
 * `skip-consul-config` (optional): If this flag is set, don't generate a Consul configuration file. This is useful if 
   you have a custom configuration file and don't want to use any of of the default settings from `run-consul`. 
+* `leave-on-terminate` (optional): If this flag is set, configure Consul to leave the cluster when the agent receives a TERM signal.
 
 Example:
 
