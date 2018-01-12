@@ -223,7 +223,7 @@ stderr_logfile=$consul_log_dir/consul-error.log
 numprocs=1
 autostart=true
 autorestart=true
-stopsignal=INT
+stopsignal=TERM
 user=$consul_user
 EOF
 }
